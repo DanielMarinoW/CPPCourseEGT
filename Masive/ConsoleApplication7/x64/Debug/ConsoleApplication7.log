@@ -1,0 +1,6 @@
+﻿  ConsoleApplication7.cpp
+F:\упражнения\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(70,10): error C2143: syntax error: missing ';' before '<<'
+F:\упражнения\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(70,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+F:\упражнения\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(70,10): error C2059: syntax error: '<<'
+F:\упражнения\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(71,1): error C2059: syntax error: '}'
+F:\упражнения\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(71,1): error C2143: syntax error: missing ';' before '}'
