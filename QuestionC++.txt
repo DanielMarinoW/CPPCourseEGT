@@ -1,0 +1,144 @@
+1.Syntax Explanation:
+Describe what the following line of C++ code does: int* ptr = &var;
+
+int var = 5;
+    int* ptr = &var; //pointer of type int with adress of the variable var, which should be int  
+    // поинтер от тип int със адрес на променлива със име var, която трябва да е от тип int.
+    cout << &var <<endl; //0x5ffe94 address
+    cout << ptr <<endl; //0x5ffe94 address
+
+2. Concept Clarification:
+Explain the defference between a while loop and a do-while loop in C++:
+
+//цикъла while 1во поверява условието дали е вярно и ако е вярно изпълнява действието в цикъла ако не е вярно не влиза и не го изпълнява.
+the while loop 1st entrusts the condition if it is true and if it is true it executes the action in the loop if it is not true
+ it does not enter and does not execute it.
+//цикъла do while първо изпълнява действието и после проверява дали условието е вярно.
+//the do while loop first executes the action and then checks if the condition is true.
+
+bool isTrue = false;
+    while (isTrue == true)
+    {
+        cout << "HELLO WORLD";
+    }
+
+    do 
+    cout << "HELLO WORLD";
+    while(isTrue == true);
+
+
+3. Code Analysis:
+Given a snippet of C++ code containing a for loop, explain what the loop
+does, including how many times it iterates and why.
+
+//във for цикъла правим една променлива и я инициализираме със стойността от която искаме да започва цикъла
+//след което слагаме до колко ще се върти цикъла, и после увеличаваме променливата за да може да стигнем до края на цикъла.
+//всеки път принти число от 0 до 9 в този случай. 
+
+
+for (int i = 0; i < 10; i++) {
+    cout << i << endl;
+}
+
+4.Function Usage:
+Write about how functions prevent code duplication and give n example 
+of a simple C++ function that calculates the square of number.
+
+//правим функцийте за предотвратяване повтаряне на код.
+
+#include <iostream>
+using namespace std;
+int calculate(int a) {
+
+    return a * a;
+}
+int main()
+{  
+    cout<<calculate(5);  
+}
+
+5.Memory Management:
+Discuss the importance of memory management in C++ and explain the 
+difference between stack аnd heap memory allocation.
+
+
+
+6.Object-Oriented Programming:
+Explain the concept of encapsulation in C++ and how it is achieved using classes.
+
+Енкапсулацията е затваряне на променливи и функции в една единица.
+class Human {
+
+public:
+    Human(int age, string name);
+    void print();
+
+private:
+    int age;
+    string name;
+};
+
+7.Error Headling:
+Describe how exceptions are used in C++ for error handling, with an example of a try-catch block.
+//със try block тествме някакъв код и ако даде throw (грешка) ще го прехвърли към catch block:
+try {
+  int age = 15;
+  if (age >= 18) {
+    cout << "Access granted - you are old enough.";
+  } else {
+    throw (age);
+  }
+}
+catch (int myNum) {
+  cout << "Access denied - You must be at least 18 years old.\n";
+  cout << "Age is: " << myNum;
+}
+
+- https://www.w3schools.com/cpp/cpp_exceptions.asp
+
+8.STL Containers:
+Write aboute the purpose and use of the std::vector container in C++.
+//вектора е масив на който не му задаваме големина. 
+//Можем да добавяме или да изваждаме елементи от него.
+ int a = 1;
+ int b = 2;
+ int c = 3;
+
+ vector<int> numbers;
+
+ numbers.push_back(a);
+ numbers.push_back(b);
+ numbers.push_back(c);
+
+ numbers.pop_back();
+
+9.Pointers and References:
+Discuss the difference between pointers and references in C++ and
+ provide scenarios where one might be preferred over the other.
+
+//със пойнтер създаваш адрес който сочи към адрес.
+//референцията съдържа стойноста на адрес.С референция можеш да променяш стойноста.
+
+- https://unstop.com/blog/difference-between-pointer-and-reference-cpp
+
+10.Advanced Features:
+Explain the concept of templates in C++ and how they support generic programming. Include a simple example of a template function.
+
+//ако правим функция която събира две неща които не знаем от какъв тип са ги правим template.
+#include <vector>
+#include <iostream>
+using namespace std;
+template <typename T> T  calculateP(T x, T y) {
+    return x + y ;
+}
+int main()
+{  
+    calculateP<int>(5, 6);  
+    calculateP<float>(5.3, 6.2);
+}
+
+
+
+
+
+
