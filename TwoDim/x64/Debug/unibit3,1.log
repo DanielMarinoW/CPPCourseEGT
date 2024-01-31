@@ -1,0 +1,114 @@
+﻿  Circle.cpp
+F:\kurs 2ra chast\unibit3,1\Shape.h(5,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'Circle.cpp')
+  
+F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(2,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'Circle.cpp')
+  
+F:\kurs 2ra chast\unibit3,1\Circle.cpp(5,48): error C2665: 'TwoDimShape::TwoDimShape': no overloaded function could convert all the argument types
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(31,1):
+  could be 'TwoDimShape::TwoDimShape(TwoDimShape &&)'
+  	F:\kurs 2ra chast\unibit3,1\Circle.cpp(5,48):
+  	'TwoDimShape::TwoDimShape(TwoDimShape &&)': cannot convert argument 1 from 'int' to 'TwoDimShape &&'
+  		F:\kurs 2ra chast\unibit3,1\Circle.cpp(5,49):
+  		Reason: cannot convert from 'int' to 'TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(31,1):
+  or       'TwoDimShape::TwoDimShape(const TwoDimShape &)'
+  	F:\kurs 2ra chast\unibit3,1\Circle.cpp(5,48):
+  	'TwoDimShape::TwoDimShape(const TwoDimShape &)': cannot convert argument 1 from 'int' to 'const TwoDimShape &'
+  		F:\kurs 2ra chast\unibit3,1\Circle.cpp(5,49):
+  		Reason: cannot convert from 'int' to 'const TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\Circle.cpp(5,48):
+  while trying to match the argument list '(int)'
+  
+  Rectangle.cpp
+F:\kurs 2ra chast\unibit3,1\Shape.h(5,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'Rectangle.cpp')
+  
+F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(2,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'Rectangle.cpp')
+  
+F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(7,95): error C2665: 'TwoDimShape::TwoDimShape': no overloaded function could convert all the argument types
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(31,1):
+  could be 'TwoDimShape::TwoDimShape(TwoDimShape &&)'
+  	F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(7,95):
+  	'TwoDimShape::TwoDimShape(TwoDimShape &&)': cannot convert argument 1 from 'int' to 'TwoDimShape &&'
+  		F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(7,96):
+  		Reason: cannot convert from 'int' to 'TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(31,1):
+  or       'TwoDimShape::TwoDimShape(const TwoDimShape &)'
+  	F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(7,95):
+  	'TwoDimShape::TwoDimShape(const TwoDimShape &)': cannot convert argument 1 from 'int' to 'const TwoDimShape &'
+  		F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(7,96):
+  		Reason: cannot convert from 'int' to 'const TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(7,95):
+  while trying to match the argument list '(int)'
+  
+F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(27,6): error C2248: 'TwoDimShape::size': cannot access private member declared in class 'TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(26,9):
+  see declaration of 'TwoDimShape::size'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(7,7):
+  see declaration of 'TwoDimShape'
+  
+F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(31,6): error C2248: 'TwoDimShape::position': cannot access private member declared in class 'TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(27,9):
+  see declaration of 'TwoDimShape::position'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(7,7):
+  see declaration of 'TwoDimShape'
+  
+F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(35,6): error C2248: 'TwoDimShape::sh': cannot access private member declared in class 'TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(28,12):
+  see declaration of 'TwoDimShape::sh'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(7,7):
+  see declaration of 'TwoDimShape'
+  
+F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(39,6): error C2248: 'TwoDimShape::ch': cannot access private member declared in class 'TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(29,10):
+  see declaration of 'TwoDimShape::ch'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(7,7):
+  see declaration of 'TwoDimShape'
+  
+F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(43,8): error C2039: 'sideB': is not a member of 'Rectangle'
+  F:\kurs 2ra chast\unibit3,1\Rectangle.h(7,7):
+  see declaration of 'Rectangle'
+  
+F:\kurs 2ra chast\unibit3,1\Rectangle.cpp(67,15): error C2039: 'sideB': is not a member of 'Rectangle'
+  F:\kurs 2ra chast\unibit3,1\Rectangle.h(7,7):
+  see declaration of 'Rectangle'
+  
+  Thriangle.cpp
+F:\kurs 2ra chast\unibit3,1\Shape.h(5,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'Thriangle.cpp')
+  
+F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(2,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'Thriangle.cpp')
+  
+F:\kurs 2ra chast\unibit3,1\Thriangle.cpp(5,63): error C2665: 'TwoDimShape::TwoDimShape': no overloaded function could convert all the argument types
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(31,1):
+  could be 'TwoDimShape::TwoDimShape(TwoDimShape &&)'
+  	F:\kurs 2ra chast\unibit3,1\Thriangle.cpp(5,63):
+  	'TwoDimShape::TwoDimShape(TwoDimShape &&)': cannot convert argument 1 from 'int' to 'TwoDimShape &&'
+  		F:\kurs 2ra chast\unibit3,1\Thriangle.cpp(5,64):
+  		Reason: cannot convert from 'int' to 'TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(31,1):
+  or       'TwoDimShape::TwoDimShape(const TwoDimShape &)'
+  	F:\kurs 2ra chast\unibit3,1\Thriangle.cpp(5,63):
+  	'TwoDimShape::TwoDimShape(const TwoDimShape &)': cannot convert argument 1 from 'int' to 'const TwoDimShape &'
+  		F:\kurs 2ra chast\unibit3,1\Thriangle.cpp(5,64):
+  		Reason: cannot convert from 'int' to 'const TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\Thriangle.cpp(5,63):
+  while trying to match the argument list '(int)'
+  
+  TwoDimShape.cpp
+F:\kurs 2ra chast\unibit3,1\Shape.h(5,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'TwoDimShape.cpp')
+  
+F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(2,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'TwoDimShape.cpp')
+  
+F:\kurs 2ra chast\unibit3,1\TwoDimShape.cpp(6,14): error C2511: 'TwoDimShape::TwoDimShape(int)': overloaded member function not found in 'TwoDimShape'
+  F:\kurs 2ra chast\unibit3,1\TwoDimShape.h(7,7):
+  see declaration of 'TwoDimShape'
+  
+F:\kurs 2ra chast\unibit3,1\TwoDimShape.cpp(6,43): error C2550: 'TwoDimShape::{ctor}': constructor initializer lists are only allowed on constructor definitions
+  Generating Code...
