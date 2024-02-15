@@ -1,1 +1,2 @@
 C:\Users\Miro\Desktop\EGT\ShuflleCard_Homework\x64\Debug\ShuflleCard_Homework.exe
+C:\Users\Miro\Desktop\CPPCourseEGT\CPPCourseEGT\ShuflleCard_Homework\x64\Debug\ShuflleCard_Homework.exe
